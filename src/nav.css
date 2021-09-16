@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.nav_link{
+    color:rgb(0, 0, 0);
+    padding: 4px;
+    border-radius: 5px;
+    background-color: rgba(56, 80, 95, 0.329);
+    font-size: 15px;
+}
+
+.nav_links{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.nav_link:hover{
+    background-color: lightslategray;
+    color: rgb(255, 244, 244);
+}
+
+nav{
+    background: rgb(255, 255, 255);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

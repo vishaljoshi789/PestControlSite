@@ -1,0 +1,24 @@
+.about{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+    padding: 30px;
+    margin: 50px;
+    text-align: justify;
+    color: white;
+    background: linear-gradient(to left bottom, rgb(79, 89, 228), rgb(241, 91, 234));
+    border-radius: 20px;
+}
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background: linear-gradient(to right top, rgb(228, 126, 79), rgb(241, 91, 234));
+
+}

@@ -1,0 +1,25 @@
+.footer{
+    min-height: 15vh;
+    max-width: 100vw;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+}
+
+
+footer{
+    color :whitesmoke;
+    text-align: center;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer div{
+    cursor:pointer;
+}
+
+footer p{
+    cursor:no-drop;
+}
+

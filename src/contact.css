@@ -1,0 +1,31 @@
+.contactheading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right bottom, rgb(96, 96, 240), lightcoral);
+    min-height: 100vh;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.northwalacontact{
+    text-align: center;
+    height: 400px;
+    width: 390px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to top right, rgb(250, 137, 85), rgb(75, 116, 228));
+}
+
+.northwalacontact a{
+    padding: 7px;
+    background-color: grey;
+    margin: 10px;
+    border-radius: 10px;
+    color: white;
+}
